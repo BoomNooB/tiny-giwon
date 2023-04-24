@@ -8,7 +8,7 @@ const Dashboard = ({children}) => {
   return (
     <div className='dashboard'>
 
-      <Navbar />
+      <Navbar/>
 
       <div class='row' >
 

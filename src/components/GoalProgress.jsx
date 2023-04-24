@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Doughnut } from 'react-chartjs-2';
 import { ArcElement,Chart as ChartJS } from "chart.js";
 import './style/GoalProgress.css'
-import Dashboard from './Dashboard';
 ChartJS.register(ArcElement);
 
 

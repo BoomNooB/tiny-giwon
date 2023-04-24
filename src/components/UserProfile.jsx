@@ -11,7 +11,7 @@ const UserProfile = () => {
   return (
     
         <div className='userProfile'>
-            <img src='http://placekitten.com/200/200' alt=''/>
+            <img src='http://placekitten.com/200/200' class='img-fluid' alt=''/>
             <h2>DisplayName</h2>
             <p>
                 Current Weight : <strong>{weight}</strong> kg
