@@ -7,6 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import GoalSelection from './components/GoalSelection';
+import ActivityCard from './components/ActivityCard';
 
 
 
@@ -14,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Dashboard>
       {/* <GoalSelection /> */}
-      
+      <ActivityCard />
     </Dashboard>    
   </React.StrictMode>
 )

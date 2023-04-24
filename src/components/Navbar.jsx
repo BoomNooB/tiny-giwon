@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 
-
 const Navbar = () => {
   return (  
     <header>
@@ -20,7 +19,6 @@ const Navbar = () => {
             <Button variant="danger">Sign out <FontAwesomeIcon icon={faArrowRightFromBracket} /></Button>
             </a>
           </li>
-          
       </nav>
     </header>
   )
